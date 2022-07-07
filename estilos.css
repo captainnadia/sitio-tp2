@@ -1,0 +1,330 @@
+*{ box-sizing: border-box; }
+
+body{ font-family: 'Barlow', sans-serif; }
+
+.contenedor{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 1px; }
+
+ul{list-style-type: none;}
+
+a{text-decoration: none;}
+
+.logo{
+    display: block;
+    color: #07070700;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    background-size: 100%;
+    background: url(img/NR-blanco-.png) no-repeat 0 0 scroll; }
+
+  .d-nav{
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #070707;    
+    position: fixed;
+    height: 150px;
+    z-index: 99999;
+    width: 100%;
+    padding: 0 200px; }
+
+a{
+    color: #887d9a;
+    transition: all 0.4s linear;
+}
+
+a:hover{
+    color: #f9f070;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px; }
+
+.presentacion{
+    background-image: url(img/portada.jpg);
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 200px; 
+    height: 900px ;
+    width: 100%;}
+
+header p{
+    font-size: 33px;
+    margin-bottom: 1px; }
+
+header h1{
+    font-size: 55px;
+    margin: 0 auto; }
+
+.borde{
+    font-family: 'Barlow', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    background-color: #726d2663;
+    width: 600px;
+    height: 350px;
+    border-radius:20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 8px #f8f5f4;
+    color: #f8f5f4;
+    text-align: center; }
+    
+.d-boton{
+    padding-top: 150px; }
+
+.cta:link {color: #000000;}
+    
+.cta:visited {color:#000000;}
+    
+.cta:active {color: #000000;}
+    
+.cta:hover{color: #f9f070;}
+
+.cta{
+    background-color: #887d9a;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    font-size: 22px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 400px; 
+    color: #070707; }
+ 
+
+#bienvenidos{
+    background-color: #070707dc;
+    padding-top: 200px ; }
+  
+.texto-yo{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-top: 130px;}
+
+.d-img{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px; }
+
+
+.subir{
+    text-align: center;
+    padding-bottom: 30px;  }
+
+.texto-yo{
+    width: 400px;
+    height: 600px;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+    color: #fcf9f9;
+}
+
+.d-img{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 1000px;
+    
+
+}
+.texto-pres p{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    font-size:large;
+    text-align: center;}
+
+    
+#trabajos{
+    background-color: #887d9a; 
+    justify-content: space-between;}
+
+.flexbox-num-1,.flexbox-num-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px; }
+    
+.flexbox-num-2 {flex-direction: row-reverse;}
+    
+.text-trabajos{
+    padding-top: 150px; }
+
+#herramientas{
+    background-color: #f8f5f4;
+    color: #070707;
+    height: 400px;   }
+
+.d-herramientas{
+    padding-left: 200px;}
+
+.programas{
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 10px;}
+
+.texto-prog{
+    width: 200px;
+    
+}
+
+#taylorswift{
+    background-image: url(img/taylr-graduada.jpg);
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 250px;
+    height: 1200px;
+    width: 100%;
+    color: #f8f5f4; }
+  
+#taylorswift h3{
+    font-size: 70px;
+    margin-bottom: 1px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 50px; }
+
+.pres-tay{
+    font-family: 'Barlow', sans-serif;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    background-color: #62419c86;
+    width: 800px;
+    height: 350px;
+    border-radius:20px;
+    padding-left: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 6px #7B5BB3;
+    color: #f8f5f4;
+    text-align: center; }
+   
+.pres-tay h3{ font-size: 70px; }
+  
+#info-tay{
+    width: 100%;
+    text-align: justify;
+    padding-left: 340px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #f9f070;
+    height: 1100px;
+}
+.d-albumes{
+    width: 900px;
+    height: 200px;
+}
+.albumes{
+    position: relative; 
+    height: 500px;
+    padding: 10px 0;
+    left: 400px;
+    width: 600px;  }
+
+.flexbox1 .flexbox2{
+        display: flex;
+        justify-content: space-around
+}
+
+.flexbox1{ flex-direction: row; }
+.flexbox2{ flex-direction: row-reverse; }
+
+/*esto es folklore foto */
+.der-foto{
+    padding-top: 0px;
+    padding-left: 600px;
+    right: 500px;
+    padding-right: 0px;
+    position: absolute;
+}
+/*esto es evermore foto */
+.izq-foto{
+    padding-left: 0px;
+    left: 500px;
+    padding-right: 600px;
+    position: absolute;
+}
+
+.titu-folk{
+    padding-top: 300px;
+    right: 400px;
+    text-align: center;
+    padding-left: 1px;
+}
+
+.titu-ever{
+    padding-top: 300px;
+    text-align: center;
+    padding-right: 1000px;
+}
+
+/*esto es folklore canciones*/
+.lista-izq{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+
+}
+/*esto es evermore canciones*/
+.lista-der{
+    position: absolute;
+    width: 300px;
+    height: 200px;    
+    text-align: right;
+    margin-left: 450px;
+}
+.lista-der p{ font-size: 13px;}
+.lista-izq p{ font-size: 13px;}
+
+.volver{
+    padding-top: 670px;
+    left: 800px;}
+
+footer{
+    height: 150px;
+}
+
+#redes{
+    padding-right: 350px;
+    margin-left: 400px;}
+        
+
+.d-iconos{
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-final{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+  
